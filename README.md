@@ -8,14 +8,16 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# requirements
+# Requirements
 
 npm install react react-dom react-router-dom react-scroll framer-motion lucide-react
+
 
 INSTALL TAILWIND
 
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
 
 copy below code to tailwind.config.js
 
@@ -30,6 +32,7 @@ export default {
   },
   plugins: [],
 }
+
 
 copy below code to index.css
 
